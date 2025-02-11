@@ -1,0 +1,46 @@
+/* Importamos la fuente Outfit de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(218, 44%, 22%); /* Slate 900 */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.qr-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: hsl(212, 45%, 89%); /* Slate 300 */
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.qr-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 20px 0;
+  font-weight: 700;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(216, 15%, 48%); /* Slate 500 */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
